@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:background="#0d47a1"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Paris_Baguette_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paris Baguette"
+        android:textSize="50sp"
+        android:fontFamily="san-serif-light"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textStyle="normal|bold|"
+        android:background="#0d47a1" />
+
+    <TextView
+        android:id="@+id/Description_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description of business:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/Paris_Baguette_textview"
+        android:background="#ffffff"
+        android:layout_marginLeft="8dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/Description2_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="They are a company that provides a unique experience to customers by introducing a new trend-setting bakery and cafe."
+        android:textStyle="italic"
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/Description_textview"
+        android:background="#ffffff"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textSize="14sp"/>
+14sp
+    <TextView
+        android:id="@+id/Description3_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For 70 years, they have been refining their phiolospy and techinques in the kichen thanks to our parent company, SPC Group."
+        android:textStyle="italic"
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/Description2_textview"
+        android:background="#ffffff"
+        android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/information_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here is our information:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/Description3_textview"
+        android:background="#ffffff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/information2_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: (650)-697-0406"
+        android:textStyle="italic"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/information_textview"
+        android:background="#ffffff"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/information3_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 655 Broadway, Millbare, Ca 94030"
+        android:textStyle="italic"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/information2_textview"
+        android:background="#ffffff"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/information4_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website: www.parisbaguetteusa.com/ "
+        android:textStyle="italic"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/information3_textview"
+        android:background="#ffffff"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/hour_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hour of operation: "
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/information4_textview"
+        android:background="#ffffff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/hour2_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon-Thu, Sun 7:00am-9:00pm"
+        android:textStyle="italic"
+        android:layout_below="@+id/hour_textview"
+        android:paddingLeft="8dp"
+        android:background="#ffffff"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/hour3_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fri-Sat 7:00am-10:00pm"
+        android:textStyle="italic"
+        android:layout_below="@+id/hour2_textview"
+        android:paddingLeft="8dp"
+        android:background="#ffffff"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
+
